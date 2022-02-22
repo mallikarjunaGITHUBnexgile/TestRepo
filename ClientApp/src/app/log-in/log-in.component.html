@@ -1,0 +1,30 @@
+<!-- <div class="row col-12">
+    <div class="col-6"> -->
+        <mat-card class="example-form"  @fadeSlideInOut>
+            <mat-card-content class="formWidth" appearance="">
+                <h2>Log in {{item}} {{name}}</h2>
+                <form mx-0 [formGroup]="logInForm" autocomplete="off" (ngSubmit)="onSubmit()">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>User ID</mat-label>
+                        <input matInput placeholder="Enter User name / ID" formControlName="userID" required>
+                    </mat-form-field>
+
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Password</mat-label>
+                        <input matInput type="password" placeholder="********" formControlName="password" required>
+                    </mat-form-field>
+                    <p>Don't have account?<a routerLink="/signIn">Register</a></p>
+                    <div calss="row example-button-row">
+                        <button mat-raised-button color="primary">Log in</button>
+                        <button mat-raised-button color="accent" (click)="backClicked()" (click)="addNewItem('From Child')">Cancle</button>
+                    </div>
+                </form>
+            </mat-card-content>
+        </mat-card>
+    <!--</div>
+    <div class="col-6">
+        !-- <mat-card class="example-form">
+            <qr-code value="qrcode" size="250"></qr-code>
+        </mat-card> --
+    </div>
+</div>-->

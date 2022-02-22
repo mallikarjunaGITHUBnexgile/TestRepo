@@ -1,0 +1,36 @@
+/* mat-card {
+    max-width: 650px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+mat-form-field {
+    display: block;
+}*/
+
+
+/* .full-width-input {
+    margin-right: 5px;
+} */
+
+
+.formWidth {
+    width: 100%;
+}
+
+.example-form {
+    min-width: 200px;
+    max-width: 500px;
+    width: 100%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.btn-space {
+    justify-content: space-between;
+}
+
+
+/*.example-full-width {
+    width: 100%;
+} */
